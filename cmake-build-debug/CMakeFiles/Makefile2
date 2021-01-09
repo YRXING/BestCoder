@@ -94,12 +94,12 @@ clean: CMakeFiles/BestCoder.dir/clean
 CMakeFiles/BestCoder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BestCoder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target BestCoder"
 .PHONY : CMakeFiles/BestCoder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BestCoder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BestCoder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/BestCoder.dir/rule

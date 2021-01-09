@@ -1,8 +1,12 @@
+//
+// Created by xing on 2021/1/9.
+//
+
 //给顶一个整形矩阵，请按照顺时针转圈方式打印它
 #include <cstdio>
-#include <vector>
 using namespace std;
 
+//打印自矩阵外围
 void printEdge(int** mtx, int topRow, int topCol, int downRow, int downCol){
     int curRow = topRow;
     int curCol = topCol;

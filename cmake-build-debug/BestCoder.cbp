@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xing/Repository/Algorithm/BestCoder/8-array/8-01.cpp">
+			<Option target="BestCoder"/>
+		</Unit>
 		<Unit filename="/Users/xing/Repository/Algorithm/BestCoder/main.cpp">
 			<Option target="BestCoder"/>
 		</Unit>

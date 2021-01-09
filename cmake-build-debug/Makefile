@@ -143,6 +143,33 @@ BestCoder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/build
 .PHONY : BestCoder/fast
 
+8-array/8-01.o: 8-array/8-01.cpp.o
+
+.PHONY : 8-array/8-01.o
+
+# target to build an object file
+8-array/8-01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/8-array/8-01.cpp.o
+.PHONY : 8-array/8-01.cpp.o
+
+8-array/8-01.i: 8-array/8-01.cpp.i
+
+.PHONY : 8-array/8-01.i
+
+# target to preprocess a source file
+8-array/8-01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/8-array/8-01.cpp.i
+.PHONY : 8-array/8-01.cpp.i
+
+8-array/8-01.s: 8-array/8-01.cpp.s
+
+.PHONY : 8-array/8-01.s
+
+# target to generate assembly for a file
+8-array/8-01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BestCoder.dir/build.make CMakeFiles/BestCoder.dir/8-array/8-01.cpp.s
+.PHONY : 8-array/8-01.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BestCoder"
+	@echo "... 8-array/8-01.o"
+	@echo "... 8-array/8-01.i"
+	@echo "... 8-array/8-01.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

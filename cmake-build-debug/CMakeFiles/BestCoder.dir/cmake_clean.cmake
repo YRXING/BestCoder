@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "BestCoder"
   "BestCoder.pdb"
+  "CMakeFiles/BestCoder.dir/8-array/8-01.cpp.o"
   "CMakeFiles/BestCoder.dir/main.cpp.o"
 )
 
