@@ -35,9 +35,9 @@ void printEdge(int** mtx, int topRow, int topCol, int downRow, int downCol){
 }
 
 void spiralOrderPrint(int** mtx,int row, int col){
-    //l是
-    int topRow = 0,topCol = 0;
-    int downRow = row-1,downCol = col-1;
+    int topRow = 0,topCol = 0;//左上角坐标
+    int downRow = row-1,downCol = col-1;//右下角坐标
+    
     //左上角坐标和右下角坐标能夹出一个子矩阵，把外层打印出来
     while(topRow <= downRow && topCol <= downCol){
         printEdge(mtx, topRow++, topCol++, downRow--, downCol--);
