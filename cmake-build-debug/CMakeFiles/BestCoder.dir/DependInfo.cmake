@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xing/Repository/Algorithm/BestCoder/8-array/8-01.cpp" "/Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles/BestCoder.dir/8-array/8-01.cpp.o"
   "/Users/xing/Repository/Algorithm/BestCoder/main.cpp" "/Users/xing/Repository/Algorithm/BestCoder/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
