@@ -1,6 +1,16 @@
 #include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <queue>
+#include <unordered_map>
+#include <algorithm>
+
+using namespace std;
+
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+   int b = rand()%10;
+
+   printf("%d",b);
 }
