@@ -6,28 +6,57 @@
 #include <cstdio>
 using namespace std;
 
-//arr[i..len-1]中找rest
-int process(int arr[],int len,int i,int rest){
-    if(i==len) return rest==0?0:-1; //剩余待找的钱数不是零，证明找不开，返回-1
-    int res = -1;//没有找到有效解，初始为-1
-
-    //不断尝试k张面值arr[i]，不断优化res的最小张数
-    for(int k=0;k*arr[i]<=rest;k++){
-        //使用k张arr[i],剩下的钱为rest-k*arr[i],交给剩下面值arr[i+1...len-1]
-        int next = process(arr,len,i+1,rest-k*arr[i]);
-        if(next != -1) res=res==-1 ? next+k : min(res,next+k); //不断优化res值
+class Solution {
+public:
+    //表示[k,len)自由使用面值情况下，找零rest的最少张数
+    int dfs(vector<int>& coins, int k, int rest){
+        int len = coins.size();
+        //递归终止条件：已经没有面值考虑了
+        if(k==len) {
+            return rest==0?0:-1;
+        }
+        //最小张数
+        int ans = -1;
+        //依次尝试使用 i 张coins[k],剩下的交给[k+1,len) rest-i*coins[k]处理
+        for (int i = 0; i*coins[k] <= rest; ++i) {
+            int next = dfs(coins,k+1,rest-i*coins[k]);
+            if (next != -1) {
+                //不同的组合中选择最小的结果
+                ans = ans==-1? next+i:min(ans,next+i);
+            }
+        }
+        return ans;
     }
-    return res;
-}
 
-int minCoins(int arr[],int len,int aim){
-    if(len==0||aim<0) return -1;
-    return process(arr,len,0,aim);
+    int coinChangeDFS(vector<int>& coins, int amount) {
+        if(amount == 0) return 0;
+        return dfs(coins,0,amount);
+    }
 
-}
-
-int main() {
-    int arr[3]={5,3,2};
-    printf("%d",minCoins(arr,2,2));
-    return 0;
-}
+    int coinChange(vector<int>& coins, int amount) {
+        if (amount==0) return 0;
+        int len = coins.size();
+        //dp[i][rest]表示[i,len)中兑换rest的最小数目
+        vector<vector<int>> dp(len+1,vector<int>(amount+1,-1));
+        for (int rest = 1; rest <= amount ; ++rest) {
+            dp[len][rest] = -1; //当没有面值却还有零钱时返回-1；
+        }
+        //dp[i][rest] = min{dp[i+1][rest],dp[i][rest-coins[i]]+1}
+        //倒着遍历
+        for (int i = len-1; i >=0 ; --i) {
+            for (int rest = 0; rest <= amount; ++rest) {
+                dp[i][rest] = -1; //初始值为-1
+                if (dp[i+1][rest]!=-1) dp[i][rest] = dp[i+1][rest];
+                //如果左边位置不越界并且有效
+                if (rest-coins[i]>=0&&dp[i][rest-coins[i]]!=-1){
+                    if (dp[i][rest]==-1) dp[i][rest]=dp[i][rest-coins[i]]+1;
+                    else {
+                        // 保证下面和左边的值都有效，才去取最小值
+                        dp[i][rest] = min(dp[i][rest],dp[i][rest-coins[i]]+1);
+                    }
+                }
+            }
+        }
+        return dp[0][amount];
+    }
+};
