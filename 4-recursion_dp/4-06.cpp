@@ -1,32 +1,6 @@
-#include<cstdio>
-#include<cstring>
-#include<algorithm>
-#include<vector>
-#include<set>
-#include <iostream>
-#include <cmath>
-#include <stack>
-#include <queue>
-#include <unordered_map>
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
+//
+// Created by xing on 2022/2/27.
+//
 /*
  * 数字 n 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
  * n = "(" + 【i=p时所有括号的排列组合】 + ")" + 【i=q时所有括号的排列组合】，其中 p+q=n-1
@@ -35,6 +9,11 @@ struct ListNode {
  * 因为整个结构是对称的，比如p=0,q=n-1，如果q在左侧刚好对应p=n-1,q=0的情况
  * 所以只需要把p从0-n-1遍历完就可以了
  * */
+#include <string>
+#include <vector>
+using namespace std;
+
+
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -54,9 +33,3 @@ public:
         return dp[n];
     }
 };
-
-
-
-int main(){
-    vector<string> s;
-}
