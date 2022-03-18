@@ -30,16 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f9741a-8bcb-4e50-86dd-f124520d7946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-recursion_dp/单词拆分.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-array/8-05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-recursion_dp/电话号码字母组合.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-other/第一个丢失的正数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-stack/1-01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1-stack/表达式求值.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-linklist/2-01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2-linklist/约瑟夫问题.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-linklist/2-02.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2-linklist/2-02.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-array/8-01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8-array/8-01.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-array/8-03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8-array/8-03.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BestCoder" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BestCoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -92,7 +87,7 @@
       <workItem from="1642912035742" duration="54278000" />
       <workItem from="1645689091675" duration="39852000" />
       <workItem from="1646616720431" duration="102000" />
-      <workItem from="1646624155607" duration="31144000" />
+      <workItem from="1646624155607" duration="35912000" />
     </task>
     <servers />
   </component>
@@ -112,29 +107,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1647571461684">
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1647583092615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/-1920.-103.1920.1055/0.0.1440.900@0.0.1440.900" timestamp="1645673394665" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647571461684" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647583092615" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1645518698748" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1647571461682">
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1647583092613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.center/-1920.-103.1920.1055/0.0.1440.900@0.0.1440.900" timestamp="1645673394662" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647571461682" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647583092613" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1645518698747" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1647571461681">
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1647583092611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.left/-1920.-103.1920.1055/0.0.1440.900@0.0.1440.900" timestamp="1645673394661" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647571461681" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647583092611" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1645518698746" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1647571461683">
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1647583092614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.right/-1920.-103.1920.1055/0.0.1440.900@0.0.1440.900" timestamp="1645673394663" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647571461683" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/-1920.-128.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1647583092614" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1645518698748" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1646018738229">
       <screen x="0" y="0" width="1440" height="900" />
