@@ -30,12 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f9741a-8bcb-4e50-86dd-f124520d7946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-recursion_dp/电话号码字母组合.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-other/第一个丢失的正数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-stack/每日温度.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BestCoder" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BestCoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1642912035742" duration="54278000" />
       <workItem from="1645689091675" duration="39852000" />
       <workItem from="1646616720431" duration="102000" />
-      <workItem from="1646624155607" duration="35912000" />
+      <workItem from="1646624155607" duration="38680000" />
     </task>
     <servers />
   </component>
