@@ -45,20 +45,4 @@ void spiralOrderPrint(int** mtx,int row, int col){
 }
 
 
-/*int main()
-{
-    int** mtx = new int*[4];
-    for(int i=0;i<4;i++){
-        mtx[i] = new int[4];
-    }
-    int count=1;
-    for(int i=0;i<3;i++)
-        for(int j=0;j<3;j++) {
-            mtx[i][j] = count++;
-            printf("%d ",mtx[i][j]);
-        }
 
-    printf("\n");
-    spiralOrderPrint(mtx,3,3);
-    return 0;
-}*/

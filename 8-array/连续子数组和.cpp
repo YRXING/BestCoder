@@ -2,6 +2,9 @@
 // Created by xing on 2022/1/4.
 //
 
+#include <vector>
+#include <unordered_map>
+using namespace std;
 /*
  * 给你一个整数数组 nums 和一个整数k ，编写一个函数来判断该数组是否含有同时满足下述条件的连续子数组：
 

@@ -2,6 +2,8 @@
 // Created by xing on 2022/1/4.
 //
 
+#include <vector>
+using namespace std;
 /*
  * 盛水最多的容器
  * 给你 n 个非负整数 a1，a2，...，an，每个数代表坐标中的一个点(i,ai) 。

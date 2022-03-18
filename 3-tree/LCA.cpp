@@ -2,14 +2,6 @@
 // Created by xing on 2022/2/19.
 //
 
-#include<cstring>
-#include<algorithm>
-#include<vector>
-#include<set>
-#include <iostream>
-#include <cmath>
-#include <stack>
-#include <queue>
 #include <unordered_map>
 using namespace std;
 
@@ -21,7 +13,6 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
 
 /*
  * LCA
@@ -56,17 +47,17 @@ public:
     void dfs2(TreeNode* root) {
         if (root->left!= nullptr) {
             fa[root->left->val] = root;
-            dfs(root->left);
+            dfs2(root->left);
         }
         if (root->right!= nullptr) {
             fa[root->right->val] = root;
-            dfs(root->right);
+            dfs2(root->right);
         }
     }
 
     TreeNode* lowestCommonAncestor2(TreeNode* root, TreeNode* p, TreeNode* q) {
         fa[root->val] = nullptr;
-        dfs(root);
+        dfs2(root);
         while (p!= nullptr) {
             vis[p->val] = true;
             p = fa[p->val];
