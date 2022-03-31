@@ -1,16 +1,8 @@
 //
 // Created by xing on 2022/2/18.
 //
-#include<cstdio>
-#include<cstring>
-#include<algorithm>
 #include<vector>
-#include<set>
-#include <iostream>
-#include <cmath>
 #include <stack>
-#include <queue>
-#include <unordered_map>
 using namespace std;
 /*
  * 接雨水
