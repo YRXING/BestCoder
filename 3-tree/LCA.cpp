@@ -21,6 +21,27 @@ struct TreeNode {
 class Solution {
 public:
     TreeNode* ans;
+    // 定义：在以 root 为根的二叉树中寻找值为 val1 或 val2 的节点
+    TreeNode* find(TreeNode* root, int val1, int val2) {
+        // base case
+        if (root == nullptr) {
+            return nullptr;
+        }
+        // 前序位置，看看 root 是不是目标值
+        if (root->val == val1 || root->val == val2) {
+            return root;
+        }
+        // 去左右子树寻找
+        TreeNode* left = find(root->left, val1, val2);
+        TreeNode* right = find(root->right, val1, val2);
+        // 后序位置，已经知道左右子树是否存在目标值
+        if (left != nullptr && right != nullptr) {
+            // 当前节点是 LCA 节点
+            return root;
+        }
+        return left != nullptr ? left : right;
+    }
+
     // 判断p，q是在不在root及其子树里面
     bool dfs(TreeNode* root,TreeNode* p,TreeNode* q) {
         if (root== nullptr) return false;
