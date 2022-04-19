@@ -51,7 +51,7 @@ public:
      * are = height[i]*(right-left)
      * 因为一旦遇到比它小的柱子，面积就不是由它决定了，而是由小柱子决定的
      * 对于每根柱子，可以暴力搜索找到左右边界，也可以使用单调栈
-     * 
+     *
      * */
     int largestRectangleArea(vector<int>& heights) {
 

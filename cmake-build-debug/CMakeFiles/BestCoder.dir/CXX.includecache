@@ -33,4 +33,8 @@ string
 -
 bit
 -
+list
+-
+numeric
+-
 
