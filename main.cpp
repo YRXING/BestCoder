@@ -9,6 +9,7 @@
 #include <queue>
 #include <unordered_map>
 #include <map>
+#include <unordered_set>
 #include <string>
 #include <bit>
 #include <list>
@@ -24,6 +25,13 @@ struct TreeNode {
      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0),next(nullptr) {}
+    ListNode(int x) : val(x),next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x),next(next) {}
+};
 class Solutiona {
 public:
     /*
@@ -58,7 +66,12 @@ public:
     }
 };
 
+class Solution {
+public:
+    ListNode* sortList(ListNode* head) {
 
+    }
+};
 
 int main(){
 

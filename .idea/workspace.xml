@@ -30,14 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f9741a-8bcb-4e50-86dd-f124520d7946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4-recursion_dp/最大正方形.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-two_pointers/荷兰国旗.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-other/最长连续序列.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-other/除自身以外数组乘积.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-other/接雨水.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6-two_pointers/接雨水.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-other/跳跃游戏.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/9-other/跳跃游戏.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BestCoder" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BestCoder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BestCoder.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +70,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +89,9 @@
       <workItem from="1648294972209" duration="2813000" />
       <workItem from="1648458158942" duration="3390000" />
       <workItem from="1648537145349" duration="25980000" />
-      <workItem from="1649641340931" duration="34944000" />
+      <workItem from="1649641340931" duration="39509000" />
+      <workItem from="1651124982859" duration="192000" />
+      <workItem from="1652950731378" duration="787000" />
     </task>
     <servers />
   </component>
